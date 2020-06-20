@@ -5,11 +5,15 @@ function Invoke-HelloWorldPrivate {
 }
 
 #EndRegion '.\Private\Invoke-HelloWorldPrivate.ps1' 5
-#Region '.\Public\Invoke-HelloWorld.ps1' 0
-function Invoke-HelloWorld {
-
-    Write-Output "Hello World - Public"
-    Write-Output (Invoke-HelloWorldPrivate)
+#Region '.\Public\Invoke-GoodbyeWorld.ps1' 0
+function Invoke-GoodbyeWorld {
+    return "Goodbye World"
 }
 
-#EndRegion '.\Public\Invoke-HelloWorld.ps1' 6
+#EndRegion '.\Public\Invoke-GoodbyeWorld.ps1' 4
+#Region '.\Public\Invoke-HelloWorld.ps1' 0
+function Invoke-HelloWorld {
+    return "Hello World"
+}
+
+#EndRegion '.\Public\Invoke-HelloWorld.ps1' 4
