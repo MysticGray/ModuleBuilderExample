@@ -6,5 +6,3 @@ This sample module comes preloaded with a everything needed to get started creat
 - [Pester](https://github.com/pester/Pester)
 - [GitVersion](https://gitversion.net/docs/)
 - [PoshCode - Module Builder](https://github.com/PoshCode/ModuleBuilder)
-
-### Example Feature Branch Update
